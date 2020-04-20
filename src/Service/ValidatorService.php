@@ -25,7 +25,7 @@ class ValidatorService
 
         $fieldAnnotation = $this->annotations[$field];
 
-        var_dump($fieldAnnotation);
+        //var_dump($fieldAnnotation);
 
         if ($fieldAnnotation instanceof Length) {
             $value = mb_strlen($value);
